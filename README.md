@@ -8,10 +8,11 @@ There after I'd had to enable internet acces by going into the **/manifest/Andro
 I also changed the content_main.xml from `Textview` to `Webview`. I did also input inside the Webview an id `android:id="@+id/my_webview"`. Which was initiated in the **MainActivity.java** as private of the type WebView.
 I enabled javascript with help of the id:
 
-`myWebView = findViewById(R.id.my_webview);
+```java
+myWebView = findViewById(R.id.my_webview);
 myWebView.getSettings().setJavaScriptEnabled(true);
 myWebView.setWebViewClient(new WebViewClient());
-`
+```
 
 A folder called asset which inside has a folder named html. The reasoning having another file inside of asset was because I thought that this folder might hold other type of asset also, such as img, css or javascript files. (**/assets/html/about.html**)
 There after we called **loadUrl()** in both showExternalwebpage and showInternalwebpage. Which the method was called upon inside onOptionsItemSelected function. 
