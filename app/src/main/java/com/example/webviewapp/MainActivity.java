@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         // TODO: Add your code for showing internal web page here
         myWebView.loadUrl("file:///android_asset/html/about.html");
 
-
     }
 
     @Override
