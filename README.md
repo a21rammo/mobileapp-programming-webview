@@ -15,7 +15,7 @@ myWebView.setWebViewClient(new WebViewClient());
 ```
 
 A folder called asset which inside has a folder named html. The reasoning having another file inside of asset was because I thought that this folder might hold other type of asset also, such as img, css or javascript files. (**/assets/html/about.html**)
-There after we called **loadUrl()** in both showExternalwebpage and showInternalwebpage. Which the method was called upon inside onOptionsItemSelected function. 
+There after we called **loadUrl()** in both **showExternalwebpage** and **showInternalwebpage**. Which the method was called upon inside **onOptionsItemSelected** function. 
 
 
 ![](internalscrenshot.png)
